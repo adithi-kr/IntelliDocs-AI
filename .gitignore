@@ -1,0 +1,22 @@
+# Secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node / build
+node_modules/
+dist/
+
+# Local data (databases, user uploads, generated PDFs)
+*.db
+backend/uploads/
+backend/downloads/
+
+# Editor / OS
+.vscode/
+.DS_Store
